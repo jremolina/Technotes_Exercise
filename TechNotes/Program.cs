@@ -9,7 +9,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 
-builder.Services.AddApplication();
+builder.Services.AddApplication();// referencia a clase dependency injetcion en la capa de Aplicacion
 
 var app = builder.Build();
 
